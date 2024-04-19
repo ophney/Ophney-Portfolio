@@ -1,0 +1,25 @@
+/* ContactMe.css */
+
+@media (max-width: 768px) {
+  .flex-col {
+    flex-direction: column !important;
+  }
+  .items-center {
+    align-items: center !important;
+  }
+  .justify-center {
+    justify-content: center !important;
+  }
+  .lg\:flex-row {
+    flex-direction: column !important;
+  }
+  .lg\:justify-between {
+    justify-content: space-between !important;
+  }
+  .lg\:w-1\/2 {
+    width: 100% !important;
+  }
+  .lg\:pr-10 {
+    padding-right: 0 !important;
+  }
+}

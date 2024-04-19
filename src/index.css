@@ -1,0 +1,44 @@
+@font-face {
+  font-family: casablanca;
+  src: url("./assets/fonts/Casablanca.ttf") format("truetype");
+}
+@font-face {
+  font-family: TitrPlus;
+  src: url("./assets/fonts/TitrPlus.ttf") format("truetype");
+}
+@font-face {
+  font-family: BYekan;
+  src: url("./assets/fonts/BYekan.ttf") format("truetype");
+}
+@font-face {
+  font-family: soltan;
+  src: url("./assets/fonts/Sultan.ttf") format("truetype");
+}
+@font-face {
+  font-family: robotoBold;
+  src: url("assets/fonts/Roboto-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: summer;
+  src: url("assets/fonts/Summer.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+  user-select: none;
+  user-zoom: fixed;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

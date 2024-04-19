@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createHashRouter } from "react-router-dom";
-// import ErrorPage from "./components/ErrorPage/ErrorPage";
+import ErrorPage from "./Components/ErrorPage/ErrorPage";
 
 import App from "./App";
 import { Home, About, Portfolio, Skills, Contact } from "./pages";

@@ -1,10 +1,10 @@
 // Importing necessary modules from React and other files
 import { useEffect } from "react";
 import { Outlet, useNavigate } from "react-router-dom";
-import { Navbar, Settings, GetinTouch } from "./components";
+import { Navbar, Settings, GetinTouch } from "./Components";
 import { useStateContext } from "./context/Context";
 import "./App.css"; // Importing styles
-import Loading from "./components/Loading/Loading"; // Importing loading component
+import Loading from "./Components/Loading/Loading"; // Importing loading component
 
 // Defining the main component App
 const App = () => {
